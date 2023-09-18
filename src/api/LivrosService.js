@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 // const BASE_URL = "http://localhost:3000"; // localhost
-const BASE_URL = "http://localhost:3000"; // production
+const BASE_URL = "https://dnc-books-api.vercel.app"; // production
 const TOKEN_QUERY = import.meta.env.VITE_TOKEN_QUERY;
 
 export class LivrosService{
